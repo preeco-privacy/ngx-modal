@@ -2,6 +2,7 @@
 ## Project
 ############
 
+bundles/
 node_modules/
 coverage/
 
@@ -13,9 +14,6 @@ coverage/
 *.metadata.json
 *.d.ts
 *.js
-!bundles/*
-!index.js
-!index.d.ts
 !config/*
 !karma.conf.js
 !protractor.conf.js
