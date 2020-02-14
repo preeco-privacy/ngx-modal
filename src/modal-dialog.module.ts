@@ -4,6 +4,7 @@ import { ModalDialogService } from './modal-dialog.service';
 import { SimpleModalComponent } from './simple-modal.component';
 import { ModalDialogInstanceService } from './modal-dialog-instance.service';
 // modules
+import '@angular/compiler';
 import { CommonModule } from '@angular/common';
 import { NgModule, ModuleWithProviders, InjectionToken, SkipSelf, Optional } from '@angular/core';
 
@@ -18,7 +19,7 @@ export const MODAL_DIALOG_FORROOT_GUARD = new InjectionToken<ModalDialogModule>(
   declarations: [ModalDialogComponent, SimpleModalComponent],
   entryComponents: [ModalDialogComponent, SimpleModalComponent],
   exports: [ModalDialogComponent, SimpleModalComponent],
-  providers: [ModalDialogService]
+  providers: [ModalDialogService, ModalDialogInstanceService]
 })
 export class ModalDialogModule {
 
