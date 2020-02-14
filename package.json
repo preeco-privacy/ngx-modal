@@ -1,5 +1,5 @@
 {
-  "name": "ngx-modal-dialog",
+  "name": "@preeco-privacy/ngx-modal-dialog",
   "version": "3.0.0",
   "description": "Dynamic modal dialog for Angular",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Greentube/ngx-modal.git"
+    "url": "git://preeco-privacy/OWNER/ngx-modal.git"
   },
   "keywords": [
     "Angular",
