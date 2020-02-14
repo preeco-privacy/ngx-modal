@@ -82,7 +82,7 @@ import { Observable, Subject, from } from 'rxjs';
   `
 })
 export class ModalDialogComponent implements IModalDialog, OnDestroy, OnInit {
-  @ViewChild('modalDialogBody', { read: ViewContainerRef }) public dynamicComponentTarget: ViewContainerRef;
+  @ViewChild('modalDialogBody', { read: ViewContainerRef, static: true }) public dynamicComponentTarget: ViewContainerRef;
   @ViewChild('dialog') private dialogElement: ElementRef;
   public reference: ComponentRef<IModalDialog>;
 
