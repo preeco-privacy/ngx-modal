@@ -15,7 +15,7 @@ module.exports = {
     path: helpers.root('bundles'),
     publicPath: '/',
     filename: 'ngx-modal.umd.js',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs',
     library: 'ngx-modal'
   },
 
