@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "noImplicitAny": true,
+    "outDir": "./bundles/out-tsc",
     "module": "es2015",
     "target": "es5",
     "emitDecoratorMetadata": true,
@@ -19,7 +21,6 @@
     "lib": ["es7", "es2015", "dom"]
   },
   "files": [
-    "index.ts",
     "./src/modal-dialog.module.ts",
     "./src/modal-dialog.component.ts",
     "./src/modal-dialog.interface.ts",
@@ -32,8 +33,7 @@
     "./tests/simple-modal.component.spec.ts"
   ],
   "angularCompilerOptions": {
-    "strictMetadataEmit": true,
-    "skipTemplateCodegen": false,
-    "enableIvy": false
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
   }
 }
