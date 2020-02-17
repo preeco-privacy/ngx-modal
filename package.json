@@ -1,12 +1,12 @@
 {
   "name": "@preeco-privacy/ngx-modal-dialog",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Dynamic modal dialog for Angular",
   "scripts": {
     "test": "karma start",
     "test-watch": "karma start --singleRun=false --autoWatch=true",
     "commit": "npm run prepublish && npm test",
-    "prepublish": "ngc && npm run build",
+    "prepublish": "npm run build",
     "build": "ng build"
   },
   "repository": {
@@ -52,7 +52,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~13.7.1",
-    "awesome-typescript-loader": "3.5.0",
+    "awesome-typescript-loader": "3.1.3",
     "clean-webpack-plugin": "^0.1.16",
     "codelyzer": "~4.3.0",
     "concurrently": "3.1.0",
