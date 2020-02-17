@@ -1,17 +1,17 @@
 {
   "name": "@preeco-privacy/ngx-modal-dialog",
-  "version": "3.0.0",
+  "version": "3.0.5",
   "description": "Dynamic modal dialog for Angular",
   "scripts": {
     "test": "karma start",
     "test-watch": "karma start --singleRun=false --autoWatch=true",
     "commit": "npm run prepublish && npm test",
-    "prepublish": "ngcc --properties es5 browser module main --first-only && npm run build",
-    "build": "webpack"
+    "prepublish": "ngc && npm run build",
+    "build": "ng build"
   },
   "repository": {
     "type": "git",
-    "url": "git://preeco-privacy/OWNER/ngx-modal.git"
+    "url": "git://preeco-privacy/ngx-modal.git"
   },
   "keywords": [
     "Angular",
@@ -27,9 +27,6 @@
   "bugs": {
     "url": "https://github.com/Greentube/ngx-modal/issues"
   },
-  "main": "bundles/ngx-modal.umd.js",
-  "module": "index.js",
-  "typings": "index.d.ts",
   "homepage": "https://github.com/Greentube/ngx-modal",
   "peerDependencies": {
     "@angular/common": ">=9.0.0 <10.0.0",
@@ -37,6 +34,8 @@
     "rxjs": ">=6.0.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.2",
+    "@angular-devkit/build-ng-packagr": "~0.900.2",
     "@angular/animations": "^9.0.1",
     "@angular/cli": "^9.0.1",
     "@angular/common": "^9.0.1",
@@ -48,7 +47,6 @@
     "@angular/platform-browser-dynamic": "^9.0.1",
     "@angular/platform-server": "^9.0.1",
     "@angular/router": "^9.0.1",
-    "@ngtools/webpack": "^9.0.2",
     "@types/es6-promise": "0.0.33",
     "@types/hammerjs": "~2.0.35",
     "@types/jasmine": "~2.8.8",
@@ -70,6 +68,7 @@
     "karma-sourcemap-loader": "0.3.7",
     "karma-webpack": "~2.0.9",
     "loader-utils": "~1.1.0",
+    "ng-packagr": "^9.0.0",
     "reflect-metadata": "~0.1.12",
     "rxjs": "~6.5.4",
     "rxjs-compat": "~6.2.1",
