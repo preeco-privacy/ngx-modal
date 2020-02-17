@@ -1,6 +1,6 @@
 {
   "name": "@preeco-privacy/ngx-modal-dialog",
-  "version": "3.0.3",
+  "version": "3.0.5",
   "description": "Dynamic modal dialog for Angular",
   "scripts": {
     "test": "karma start",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://preeco-privacy/OWNER/ngx-modal.git"
+    "url": "git://preeco-privacy/ngx-modal.git"
   },
   "keywords": [
     "Angular",
