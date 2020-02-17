@@ -1,7 +1,6 @@
 const helpers = require('./config/helpers');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const AotPlugin = require('@ngtools/webpack').AngularCompilerPlugin;
 
 module.exports = {
   devtool: '#source-map',
@@ -38,12 +37,7 @@ module.exports = {
         declaration: false
       },
       exclude: [/\.spec\.ts$/, helpers.root('node_modules')]
-    },
-    /*{
-      test: /(?:\.ngfactory\.js|\.ngstyle\.js|\.ts)$/,
-      use: [ '@ngtools/webpack' ]
-    }*/
-    ]
+    }]
   },
 
   plugins: [
@@ -64,9 +58,5 @@ module.exports = {
       verbose: false,
       dry: false
     })
-    /*new AotPlugin({
-      tsConfigPath: helpers.root('tsconfig.json'),
-      // mainPath: 'src/main.ts'               // will auto-detect the root NgModule.
-    })*/
   ]
 };
