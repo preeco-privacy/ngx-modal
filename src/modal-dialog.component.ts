@@ -1,19 +1,22 @@
 ﻿import {
   Component,
-  ComponentRef,
   ComponentFactoryResolver,
-  ViewContainerRef,
+  ComponentRef,
+  ElementRef,
+  HostListener,
+  OnDestroy,
+  OnInit,
   ViewChild,
-  OnDestroy, OnInit,
-  HostListener, ElementRef
+  ViewContainerRef
 } from '@angular/core';
 import {
   IModalDialog,
-  IModalDialogOptions,
   IModalDialogButton,
-  IModalDialogSettings, ModalDialogOnAction
+  IModalDialogOptions,
+  IModalDialogSettings,
+  ModalDialogOnAction
 } from './modal-dialog.interface';
-import { Observable, Subject, from } from 'rxjs';
+import { from, Observable, Subject } from 'rxjs';
 
 /**
  * Modal dialog component
