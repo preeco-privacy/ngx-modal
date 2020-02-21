@@ -6,7 +6,7 @@ cache:
 script:
   - cd demo
   - yarn
-  - ng build --prod --base-href "https://preeco-privacy.github.io/ngx-modal/demo/"
+  - ng build --prod --base-href "https://preeco-privacy.github.io/"
   - ngh --no-silent --branch master  --dir dist/demo --repo=https://GH_TOKEN@github.com/preeco-privacy/preeco-privacy.github.io --name="preeco-privacy" --email=info@preeco.de
 notifications:
   email: false
