@@ -1,4 +1,4 @@
-import { IModalDialog, IModalDialogOptions } from '../../../../src/modal-dialog.interface';
+import { IModalDialog, IModalDialogOptions } from '@preeco-privacy/ngx-modal-dialog';
 import { Component, ComponentRef } from '@angular/core';
 
 @Component({

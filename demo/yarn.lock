@@ -900,6 +900,9 @@
     rxjs "6.5.3"
     webpack-sources "1.4.3"
 
+"@preeco-privacy/ngx-modal-dialog@file:../bundles":
+  version "3.0.7"
+
 "@schematics/angular@9.0.3":
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-9.0.3.tgz#8b0fb91fa18dd909001ac0d888479a96810aa640"

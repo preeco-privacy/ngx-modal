@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CustomModalComponent } from './dialogs/custom-modal.component';
-import { ModalDialogModule } from '../../../src/modal-dialog.module';
+import { ModalDialogModule } from '@preeco-privacy/ngx-modal-dialog';
 import { DynamicModalComponent } from './dialogs/dynamic-modal.component';
 
 @NgModule({

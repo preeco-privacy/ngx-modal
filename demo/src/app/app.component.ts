@@ -1,6 +1,6 @@
 import { Component, ViewContainerRef } from '@angular/core';
-import { ModalDialogService } from '../../../src/modal-dialog.service';
-import { SimpleModalComponent } from '../../../src/simple-modal.component';
+import { ModalDialogService } from '@preeco-privacy/ngx-modal-dialog';
+import { SimpleModalComponent } from '@preeco-privacy/ngx-modal-dialog';
 import { CustomModalComponent } from './dialogs/custom-modal.component';
 import { DynamicModalComponent } from './dialogs/dynamic-modal.component';
 
