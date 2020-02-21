@@ -7,7 +7,7 @@ script:
   - cd demo
   - yarn
   - ng build --prod --base-href "https://preeco-privacy.github.io/ngx-modal/demo/"
-  - ngh --no-silent --dir dist/demo --repo=https://GH_TOKEN@github.com/preeco-privacy/ngx-modal.git --name="meeroslav" --email=missing.manual@gmail.com
+  - ngh --no-silent --dir dist/demo --repo=https://GH_TOKEN@github.com/preeco-privacy/preeco-privacy.github.io --name="meeroslav" --email=missing.manual@gmail.com
 notifications:
   email: false
 node_js:
