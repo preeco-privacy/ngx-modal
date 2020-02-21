@@ -1,4 +1,4 @@
-import { IModalDialog, IModalDialogOptions } from 'ngx-modal-dialog';
+import { IModalDialog, IModalDialogOptions } from '../../../../src/modal-dialog.interface';
 import { Component, ComponentRef } from '@angular/core';
 
 @Component({
