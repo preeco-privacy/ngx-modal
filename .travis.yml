@@ -6,9 +6,8 @@ cache:
 script:
   - cd demo
   - yarn
-  - ng build --prod --base-href "https://greentube.github.io/ngx-modal/demo/"
-  - ngh --no-silent --repo=https://GH_TOKEN@github.com/greentube/ngx-modal.git --name="meeroslav" --email=missing.manual@gmail.com
-
+  - ng build --prod --base-href "https://preeco-privacy.github.io/ngx-modal/demo/"
+  - ngh --no-silent --repo=https://GH_TOKEN@github.com/preeco-privacy/ngx-modal.git --name="meeroslav" --email=missing.manual@gmail.com
 notifications:
   email: false
 node_js:
