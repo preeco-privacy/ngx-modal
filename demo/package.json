@@ -19,9 +19,9 @@
     "@angular/platform-browser": "^10.0.14",
     "@angular/platform-browser-dynamic": "^10.0.14",
     "@angular/router": "^10.0.14",
+    "@preeco-privacy/ngx-modal-dialog": "file:../bundles",
     "bootstrap": "~4.1.1",
     "core-js": "^2.5.4",
-    "ngx-modal-dialog": "file:../bundles",
     "rxjs": "^6.0.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
